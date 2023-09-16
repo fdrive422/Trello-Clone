@@ -8,8 +8,6 @@ export const getTodosGroupedByColumn = async () => {
 
   const todos = data.documents;
 
-  // console.log(todos);
-
   const columns = todos.reduce((acc, todo) => {
     if (!acc.get(todo.status)) {
       acc.set(todo.status, {
@@ -29,8 +27,6 @@ export const getTodosGroupedByColumn = async () => {
 
     return acc;
   }, new Map<TypedColumn, Column>());
-
-  // console.log(columns);
 
   // if columns does not have inprogress, todo, and done, add them with empty todos
   const columnTypes: TypedColumn[] = ["todo", "inprogress", "done"];
