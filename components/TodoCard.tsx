@@ -30,7 +30,7 @@ function TodoCard({
       {...dragHandleProps}
       ref={innerRef}
     >
-      <h1>Hello</h1>
+      <h1>what to do?</h1>
     </div>
   );
 }
