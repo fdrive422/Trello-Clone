@@ -1,5 +1,7 @@
 TRELLO 2.0 with REACT (Next.js 13.4, GPT-4, Drag & Drop, Zustand, Appwrite Cloud, TS)
 
+![Screen Shot 2023-10-03 at 21 50 13 PM](https://github.com/fdrive422/trello-appwrite-clone/assets/72363705/4db64d5c-7011-4c75-8eec-530cad448da7)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
